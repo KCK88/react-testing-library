@@ -13,7 +13,7 @@ describe('Testando componente About', () => {
     expect(aboutDex).toBeInTheDocument();
   });
 
-  test('', () => {
+  test('Teste se a página contém a imagem de uma Pokédex', () => {
     renderWithRouter(<App />, { route: '/about' });
 
     const DexImg = screen.getByRole('img', {
